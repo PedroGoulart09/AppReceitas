@@ -1,0 +1,12 @@
+.start-btn {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.share-btn {
+  background: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,86 @@
+.header {
+  align-items: center;
+  background-color: var(--primary);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+
+
+}
+
+.position-title {
+  transform: translate(-15px, 15px);
+}
+
+.header svg {
+  font-size: 35px;
+  transform: translateY(-5px);
+}
+
+.search-input {
+  width: 100vw;
+}
+
+.search-bar {
+  background-color: white;
+}
+
+.radio-inputs {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+
+}
+
+.category-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 10px 0;
+
+}
+
+.category-container button {
+  padding: 5px;
+  width: 30vw;
+}
+
+.header-buttons {
+  padding: 0.5rem;
+  max-width: 15vw;
+}
+
+.explore-btn {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 4px rgba(128, 128, 128, 0.385);
+  padding: 0.5rem;
+  width: 90%;
+
+}
+
+.explore-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 80vh;
+  justify-content: center;
+
+}
+
+.container-done-recipes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nationality-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

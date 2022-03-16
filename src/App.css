@@ -1,0 +1,27 @@
+/* stylelint-disable declaration-no-important */
+
+/* stylelint-disable declaration-bang-space-after */
+* {
+  border: 0;
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+  --primary: #04a057 !important;
+
+  --primary-hover: #03693a !important;
+
+  --primary-focus: #02572530 !important;
+
+  --h2-color: white !important;
+
+  --h3-color: #696969 !important;
+}
+
+.checked {
+  text-decoration: line-through;
+
+}

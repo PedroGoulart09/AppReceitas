@@ -1,0 +1,18 @@
+.recomended-container {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  padding-bottom: 55px;
+  width: 100%;
+}
+
+.recomended-card {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 4px rgba(128, 128, 128, 0.385);
+  min-width: 48vw;
+}
+
+.recomended-card img {
+  border-radius: 0.5rem;
+  width: 50vw;
+}

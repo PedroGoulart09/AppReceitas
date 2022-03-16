@@ -1,0 +1,30 @@
+/* .footer {
+  background-color: var(--primary);
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+} */
+
+.footer button {
+  background-color: var(--primary);
+  border: none;
+  padding: 0.5rem;
+  transform: translateY(8px);
+
+}
+
+.footer svg {
+  color: white;
+  font-size: 35px;
+}
+
+footer {
+  background-color: var(--primary);
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
